@@ -13,7 +13,6 @@ try:
     n = input('Enter number: ')
     while n != 1:
         n = collatz(int(n))
-        
 except ValueError:
     print('Enter a valid number')
     

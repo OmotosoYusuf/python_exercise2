@@ -5,5 +5,5 @@ def func(listValue):
         print(str(listValue[i]), end = ', ')
         continue
     print(str(listValue[-2]) + ' and ' + str(listValue[-1]))
-listValue = spam
-func(listValue)
+##listValue = spam
+func(spam)

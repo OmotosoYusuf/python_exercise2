@@ -1,0 +1,11 @@
+import re 
+phoneNumRegex = re.compile(r'\d{11}')
+mo = phoneNumRegex.findall('Hello, the phone number of my dad is 08056139653 and 07030992981, and that of my mum is 08058502494, let me add mine too 08163904242 and 07056464134')
+print(mo)
+# batRegex = re.compile(r'Bat(wo)*man')
+# mo1 = batRegex.search('The Adventous of Batman')
+# mo2 = batRegex.search('The Adventous of Batwoman')
+# mo3 = batRegex.search('The Adventous of Batwowowowoman')
+# print(mo1.group())
+# print(mo2.group())
+# print(mo3.group())

@@ -38,7 +38,7 @@ def func(listValue):
         continue
     print(str(listValue[-2]) + ' and ' + str(listValue[-1]) + '\'')    # Add second to last and last to string separated by 'and'. End with a single quote.
 
-listValue = spam
-func(listValue)
+##listValue = spam
+func(spam)
 
     # Will do for any list.

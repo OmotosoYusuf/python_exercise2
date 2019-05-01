@@ -3,9 +3,9 @@
 ##    total = num + total
 ##print(total)
 
-import datetime,
+import datetime
 
-usersAge = input()
+usersAge = input('Enter your age ')
 print('What year will you like to check for')
 usersYear = input()
 calc = usersYear - today.year
